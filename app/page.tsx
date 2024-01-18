@@ -1,5 +1,11 @@
+import Hero from "@/components/Hero";
+import Intro from "@/components/Intro";
+
 export default function Home() {
   return (
-    <h1 className="font-bold text-yellow-50 text-2xl">Hello</h1>
+    <>
+      <Hero />
+      <Intro />
+    </>
   )
 }
