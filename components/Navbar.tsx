@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className='flexBetween padding-container relative z-30 py-0 bg-gray-50'>
       <Link href="/" className='flex overflow-auto'>
         <Image src="/logo.png" alt='logo' width="130" height="50"/>
-        <Image src="/crop-footfit.png" alt='logo' className='hidden md:block' width="200" height="100"/>
+        <Image src="/crossfut.png" alt='logo' className='hidden md:block' width="230" height="100"/>
       </Link>
       <Link href="/">
         

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Trainings = () => {
   return (
-    <section className='border-2 border-red-500 flex-col felxCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-18'>
+    <section className='flex-col felxCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-18' id='trainings'>
       <div className='flex mx-auto w-[85%] relative justify-end'>
         <div className='flex flex-1 mb-[-10px] lg:min-h-[400px]'>
           <Image 
@@ -52,12 +52,12 @@ type FeatureItem = {
 const FeatureItem = ({title, icon, description}: FeatureItem) => {
   return (
     <li className='flex w-full flex-1 flex-col items-start'>
-      <div className='rounded-full p-4 lg:p-7 bg-yellow-50'>
+      <div className='rounded-full p-4 lg:p-6 bg-yellow-50'>
         <Image 
           src={icon}
           alt='map'
-          width={15}
-          height={15}
+          width={40}
+          height={30}
         />
       </div>
       <h2 className='bold-20 lg:bold-30 mt-4 capitalize'>

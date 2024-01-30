@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'why_crossfoot', label: 'Why Crossfoot?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '#why-crossfut', key: 'why-crossfoot', label: 'Why Crossfoot?' },
+  { href: '#trainings', key: 'trainings', label: 'Training' },
+  { href: '/', key: 'pricing ', label: 'Location ' },
+  { href: '#footer', key: 'footer', label: 'Contact Us' },
 ];
 
 // CAMP SECTION
@@ -18,32 +18,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
+    title: 'Physical Condition',
+    icon: '/exercise.png',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      "Optimize your body's strength and endurance through targeted workouts and personalized training plans. Achieve peak physical condition, enhance performance, and embrace a healthier, more resilient you.",
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
+    title: 'Coordination',
+    icon: '/coordination.png',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Sharpen your coordination and agility with specialized exercises designed to enhance your mind-body connection. Elevate your performance and master precise movements for a more agile and responsive you.",
   },
   {
-    title: 'Latest Technology',
-    icon: '/tech.svg',
+    title: 'Endurance',
+    icon: '/endurance.png',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
+    title: 'Technical aspect',
+    icon: '/technique.png',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      "Perfect your football skills with specialized technical training. Fine-tune your techniques, control the ball with precision, and elevate your game with expert guidance for a standout performance on the field.",
   },
 ];
 
@@ -52,11 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
+      'About Crossfut',
     ],
   },
   {
@@ -68,8 +64,8 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Whatsapp', value: '123-456-7890' },
-    { label: 'Line', value: 'hilink@akinthil.com' },
+    { label: 'Whatsapp', value: '+66 926 575 049' },
+    { label: 'Line', value: 'Coming soon.' },
   ],
 };
 

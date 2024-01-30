@@ -4,29 +4,29 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <section className='mb-4'>
+    <section className='mb-4' id='why-crossfut'>
       <div className='mt-6 flex flex-col sm:flex-row justify-center gap-4 items-center mx-auto w-[85%] pb-4'>
         <div className='relative w-full sm:w-[33%] h-[33vh]'>
-          <Image src="/workout1.jpeg" alt='image 1' className='h-full w-full object-cover' width="100" height="100"/>
+          <Image src="/img1.jpeg" alt='Crossfut' className='h-full w-full object-cover' width={100} height={100} layout="responsive"/>
           <div className='absolute top-0 left-0 w-full h-full bg-white bg-opacity-30 text-gray-50 flex flex-col justify-center items-start pl-8 font-bold'>
-            <h1 className='text-5xl mb-4'>Title 1</h1>
-            <p className='text-2xl'>Text for image 1</p>
+            <h1 className='text-5xl mb-4 shadow-md'>Stay Fit</h1>
+            <p className='text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl shadow-lg pr-1'>Where passion meets expertise, and every workout becomes a step towards a healthier, stronger you.</p>
           </div>
         </div>
 
         <div className='relative w-full sm:w-[33%] h-[33vh]'>
-          <Image src="/workout1.jpeg" alt='image 1' className='h-full w-full object-cover' width="100" height="100"/>
+          <Image src="/img2.jpeg" alt='Crossfut' className='h-full w-full object-cover' width={100} height={100} layout="responsive"/>
           <div className='absolute top-0 left-0 w-full h-full bg-white bg-opacity-30 text-gray-50 flex flex-col justify-center items-start pl-8 font-bold'>
-            <h1 className='text-5xl mb-4'>Title 1</h1>
-            <p>Text for image 1</p>
+            <h1 className='text-5xl mb-4'>Injury Prevention</h1>
+            <p>Our approach integrates personalized guidance, ensuring every workout safeguards your body and empowers your fitness journey.</p>
           </div>
         </div>
 
         <div className='relative w-full sm:w-[33%] h-[33vh]'>
-          <Image src="/workout1.jpeg" alt='image 1' className='h-full w-full object-cover' width="100" height="100"/>
+          <Image src="/img3.jpeg" alt='Crossfut' className='h-full w-full object-cover' width={100} height={100} layout="responsive"/>
           <div className='absolute top-0 left-0 w-full h-full bg-white bg-opacity-30 text-gray-50 flex flex-col justify-center items-start pl-8 font-bold'>
-            <h1 className='text-5xl mb-4'>Title 1</h1>
-            <p>Text for image 1</p>
+            <h1 className='text-5xl mb-4'>Social & Fun</h1>
+            <p>Join our community where workouts become celebrations, and the journey to a healthier lifestyle is as enjoyable as it is rewarding.</p>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Intro = () => {
           <button className="bg-yellow-50 text-white py-2 px-4 rounded">Discover Our Membership Plans</button>
         </div>
         <div className="w-full sm:w-1/2">
-          <img src="/workout1.jpeg" alt="Fitness" className="w-full h-auto sm:h-full object-cover" />
+          <img src="/img4.jpeg" alt="Fitness" className="w-full h-auto sm:h-full object-cover" />
         </div>
       </div>
     </section>
