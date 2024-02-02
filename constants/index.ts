@@ -65,7 +65,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: 'Whatsapp', value: '+66 926 575 049' },
-    { label: 'Line', value: 'Coming soon.' },
+    { label: 'Line', value: '@CrossFut' },
   ],
 };
 
@@ -76,6 +76,6 @@ export const SOCIALS = {
     { logo: '/instagram.png', href:"/" },
     { logo: '/tiktok.png', href:"/" },
     { logo: '/youtube.png', href:"/" },
-    { logo: '/line.png', href:"/" },
+    { logo: '/line.png', href:"https://lin.ee/ra38Oz8" },
   ],
 };
