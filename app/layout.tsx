@@ -4,8 +4,8 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'CrossFoot',
-  description: 'CrossFoot, a fun way to be in shape.',
+  title: 'CrossFut',
+  description: 'CrossFoot, a fun way to be in shape. Best sport in Bangkok.',
 }
 
 export default function RootLayout({
