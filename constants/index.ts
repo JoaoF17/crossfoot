@@ -3,7 +3,7 @@ export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
   { href: '#why-crossfut', key: 'why-crossfoot', label: 'Why Crossfoot?' },
   { href: '#trainings', key: 'trainings', label: 'Training' },
-  { href: '/', key: 'pricing ', label: 'Location ' },
+  { href: '#locations', key: 'pricing ', label: 'Location ' },
   { href: '#footer', key: 'footer', label: 'Contact Us' },
 ];
 
